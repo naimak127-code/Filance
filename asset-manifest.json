@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Filance/static/css/main.81d8e586.css",
-    "main.js": "/Filance/static/js/main.6ed3380e.js",
+    "main.css": "/Filance/static/css/main.f70e41a7.css",
+    "main.js": "/Filance/static/js/main.d497398f.js",
     "static/js/977.cc03102a.chunk.js": "/Filance/static/js/977.cc03102a.chunk.js",
     "static/js/455.0cba7ca7.chunk.js": "/Filance/static/js/455.0cba7ca7.chunk.js",
     "index.html": "/Filance/index.html",
-    "main.81d8e586.css.map": "/Filance/static/css/main.81d8e586.css.map",
-    "main.6ed3380e.js.map": "/Filance/static/js/main.6ed3380e.js.map",
+    "main.f70e41a7.css.map": "/Filance/static/css/main.f70e41a7.css.map",
+    "main.d497398f.js.map": "/Filance/static/js/main.d497398f.js.map",
     "977.cc03102a.chunk.js.map": "/Filance/static/js/977.cc03102a.chunk.js.map",
     "455.0cba7ca7.chunk.js.map": "/Filance/static/js/455.0cba7ca7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81d8e586.css",
-    "static/js/main.6ed3380e.js"
+    "static/css/main.f70e41a7.css",
+    "static/js/main.d497398f.js"
   ]
 }
