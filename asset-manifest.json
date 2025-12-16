@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Filance/static/css/main.3ba19fbf.css",
+    "main.js": "/Filance/static/js/main.9f4ca2d6.js",
+    "static/js/977.cc03102a.chunk.js": "/Filance/static/js/977.cc03102a.chunk.js",
+    "static/js/455.0cba7ca7.chunk.js": "/Filance/static/js/455.0cba7ca7.chunk.js",
+    "index.html": "/Filance/index.html",
+    "main.3ba19fbf.css.map": "/Filance/static/css/main.3ba19fbf.css.map",
+    "main.9f4ca2d6.js.map": "/Filance/static/js/main.9f4ca2d6.js.map",
+    "977.cc03102a.chunk.js.map": "/Filance/static/js/977.cc03102a.chunk.js.map",
+    "455.0cba7ca7.chunk.js.map": "/Filance/static/js/455.0cba7ca7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ba19fbf.css",
+    "static/js/main.9f4ca2d6.js"
+  ]
+}
