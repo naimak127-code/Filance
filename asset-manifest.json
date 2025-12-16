@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Filance/static/css/main.f70e41a7.css",
-    "main.js": "/Filance/static/js/main.d497398f.js",
+    "main.js": "/Filance/static/js/main.c62aef2b.js",
     "static/js/977.cc03102a.chunk.js": "/Filance/static/js/977.cc03102a.chunk.js",
     "static/js/455.0cba7ca7.chunk.js": "/Filance/static/js/455.0cba7ca7.chunk.js",
     "index.html": "/Filance/index.html",
     "main.f70e41a7.css.map": "/Filance/static/css/main.f70e41a7.css.map",
-    "main.d497398f.js.map": "/Filance/static/js/main.d497398f.js.map",
+    "main.c62aef2b.js.map": "/Filance/static/js/main.c62aef2b.js.map",
     "977.cc03102a.chunk.js.map": "/Filance/static/js/977.cc03102a.chunk.js.map",
     "455.0cba7ca7.chunk.js.map": "/Filance/static/js/455.0cba7ca7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f70e41a7.css",
-    "static/js/main.d497398f.js"
+    "static/js/main.c62aef2b.js"
   ]
 }
