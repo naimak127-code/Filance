@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+Finlance - Frontend (React.js + LocalStorage)
+This is the client-side application for Finlance, a personal finance dashboard. It features a robust, persistent user experience by utilizing Browser LocalStorage for data management and state persistence.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Key Frontend Features
+Persistent Dashboard: Uses localStorage to ensure your transactions, budgets, and settings remain saved even after a page refresh or browser restart.
 
-## Available Scripts
+Dynamic Budgeting: Real-time progress bars for categories like Food, Gifts, and Education.
 
-In the project directory, you can run:
+Transaction Management: Full CRUD (Create, Read, Update, Delete) functionality for logging income and expenses.
 
-### `npm start`
+Account Filtering: Quickly view balances across different platforms like HBL or Jazz Cash.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Muted Professional UI: A clean, high-contrast layout designed for clarity and ease of use.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Tech Stack
+Framework: React.js
 
-### `npm test`
+Styling: Tailwind CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Data Persistence: Browser LocalStorage API
 
-### `npm run build`
+Icons: Lucide React
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Charts: Chart.js / Recharts (Visualizing Income vs. Expenses)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+How LocalStorage is Used
+This project implements a custom hook/logic to handle data sync:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Initial Load: The app checks for existing keys (e.g., finlance_transactions) in the browser.
 
-### `npm run eject`
+State Updates: Every time a transaction is added or a budget is edited, the state is synced back to LocalStorage.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Data Integrity: Ensures users can demo the app locally without needing a complex backend setup.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Development Setup
+Install Dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Bash
+npm install
+Run the Project:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Bash
+npm start
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
